@@ -22,7 +22,7 @@ user_message.send_keys('I AM EXTRA COOOOL')
 show_message_button.click()
 output_message = chrome_browser.find_element_by_id('display')
 
-assert 'I AM EXTRA COOOOL'
+assert 'I added stuff yay me'
 
 chrome_browser.close()
 chrome_browser.quit()
